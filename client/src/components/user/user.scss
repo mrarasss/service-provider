@@ -1,0 +1,66 @@
+.user-form {
+    width: 50%;
+    & input,
+    select,
+    button {
+        margin: 1%;
+        padding: 2%;
+    }
+    & input {
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+}
+
+.service-select {
+    padding: 0.5%;
+    box-sizing: border-box;
+    & label {
+        color: orange;
+    }
+}
+
+.services {
+    padding: 1%;
+    & input {
+        width: 20px;
+        text-align: center;
+    }
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    &-services{
+        padding: 1%;
+        box-sizing: border-box;
+        &-content {
+            margin: 2%;
+        }
+        & label {
+            margin: 1%;
+            box-sizing: border-box;
+        }
+    }
+    &-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 2%;
+    }
+    &-content {
+        width: 400px;
+        height: 200px;
+        padding: 2%;
+    }
+    &-title{
+        padding-left: 2%;
+    }
+}
